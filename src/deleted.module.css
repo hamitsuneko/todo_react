@@ -1,0 +1,10 @@
+.xd {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a{
+    word-break: break-all;
+    max-width: 300px;
+}

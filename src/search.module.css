@@ -1,0 +1,12 @@
+.ul {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a{
+    word-break: break-all;
+    max-width: 500px !important
+}
+.sum {
+    margin: 30px;
+}
