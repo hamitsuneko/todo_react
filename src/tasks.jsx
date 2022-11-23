@@ -34,12 +34,12 @@ const Tasks = () => {
 
     const inputRef = useRef()
 
-    let parasha
+    let tmp
 
     if (sel.length - completed.length >= 0) {
-        parasha = sel.length - completed.length
+        tmp = sel.length - completed.length
     } else if (sel.length - completed.length < 0) {
-        parasha = 0
+        tmp = 0
     }
 
     const btnRef = useRef()
@@ -161,7 +161,7 @@ const Tasks = () => {
             {`Tasks Completed : ${completed.length}`}
         </Chip>
         <Chip className={s.sum} variant="soft" color='danger' startDecorator={<CancelOutlined/>}>
-            {`Tasks Remained : ${parasha}`}
+            {`Tasks Remained : ${tmp}`}
         </Chip>
         <Chip variant="soft" color='primary' startDecorator={<DeleteOutlined/>}>
             {`Tasks Deleted : ${deleted.length}`}

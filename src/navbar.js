@@ -12,7 +12,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-dark bg-dark justify-content-between">
             <a className={style}>To-Do List</a>
-            <a href='https://github.com/yrsolanaratonmi/todov2.git'>
+            <a href='https://github.com/hamitsuneko/todo_react.git'>
                 <img className={s.img} src = 'https://cdn-icons-png.flaticon.com/512/1051/1051377.png' alt = 'mmm' ></img>
             </a>
 
