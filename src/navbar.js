@@ -2,7 +2,7 @@ import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import s from './navbar.module.css'
 
-const style = `${s.aaa} navbar-brand`
+const style = `${s.navbar} navbar-brand`
 
 
 export default function Navbar() {
